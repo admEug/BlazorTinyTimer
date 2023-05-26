@@ -1,24 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Components;
-using System.Net.Http;
-using System.Net.Http.Json;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Components.Routing;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.Web.Virtualization;
-using Microsoft.AspNetCore.Components.WebAssembly.Http;
-using Microsoft.JSInterop;
-using BlazorTinyTimer;
-using BlazorTinyTimer.Shared;
-using MudBlazor;
 using System.Timers;
 
 namespace BlazorTinyTimer.Pages
 {
-    public partial class Index
+	public partial class Index
     {
         const string DEFAULT_TIME = "00:00:00";
         string elapsedTime = DEFAULT_TIME;
